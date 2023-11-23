@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #303030;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#header-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#header-ul>a{
+    color: white;
+    text-decoration: none;
+    margin-inline:20px ;
+}
+#header-ul>a:hover{
+    color: lightgray;
+}
